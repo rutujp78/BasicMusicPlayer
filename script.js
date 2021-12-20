@@ -72,6 +72,8 @@ backwardStep.addEventListener('click', ()=>{
     }
     audioElement.src= `song/${songs[index].songName}.mp3`;
     audioElement.play();
+    document.getElementById('masterPlay').style.display="none";
+    document.getElementById('masterPause').style.display="unset";
 })
 
 forwardStep.addEventListener('click', ()=>{
@@ -81,4 +83,6 @@ forwardStep.addEventListener('click', ()=>{
     }
     audioElement.src= `song/${songs[index].songName}.mp3`;
     audioElement.play();
+    document.getElementById('masterPlay').style.display="none";
+    document.getElementById('masterPause').style.display="unset";
 })
