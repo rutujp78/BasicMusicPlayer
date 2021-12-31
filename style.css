@@ -129,6 +129,11 @@ nav{
     height: 15px;
 }
 
+.PPPN{
+    display: flex;
+    position: fixed;
+}
+
 /* Custom input type="range" */
 #myProgressBar{
     -webkit-appearance: none;
@@ -157,6 +162,48 @@ nav{
     border: 0;
 }
 
+/* volume rocker */
+.volRocker{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 85%;
+    cursor: pointer;
+}
+.volRocker img{
+    width: 16px;
+    height: 15px;
+}
+#volH{
+    display: unset;
+}
+#volOff{
+    display: none;
+}
+
+#volRocker{
+    -webkit-appearance: none;
+    background-color: black;
+    height: 3px;
+    width: 60px;
+}
+#volRocker::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+}
+#volRocker::-moz-range-thumb {
+    -webkit-appearance: none;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    border: 0;
+}
+
 @media only screen and (max-width: 680px) {
     .mainContainer{
         width: 90vw;
@@ -167,7 +214,7 @@ nav{
         width: 85vw;
     }
     .songitemcontainer{
-        width: 85vw;
+        width: 89vw;
     }  
     .bottom{
         width: 80vw;

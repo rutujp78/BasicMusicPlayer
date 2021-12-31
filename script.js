@@ -86,3 +86,15 @@ forwardStep.addEventListener('click', ()=>{
     document.getElementById('masterPlay').style.display="none";
     document.getElementById('masterPause').style.display="unset";
 })
+
+//volume rocker
+volRocker.addEventListener('change', ()=>{
+    audioElement.volume = volRocker.value;
+    if (audioElement.volume==0) {
+        document.getElementById('volH').style.display="none";
+        document.getElementById('volOff').style.display="unset";
+    } else {
+        document.getElementById('volOff').style.display="none";
+        document.getElementById('volH').style.display="unset";
+    }
+})
