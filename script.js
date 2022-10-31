@@ -10,10 +10,10 @@ let backwardStep = document.getElementById('backwardStep');
 let forwardStep = document.getElementById('forwardStep');
 
 let songs = [
-    {songName: "Cartoon - On", filePath: "song/Cartoon - On.mp3", coverPath: "/cover/ncs.svg.png"},
-    {songName: "JPB - Up Away", filePath: "song/JPB - Up Away.mp3", coverPath: "/cover/ncs.svg.png"},
-    {songName: "Syn Cole - Feel Good", filePath: "song/Syn Cole - Feel Good", coverPath: "/cover/ncs.svg.png"},
-    {songName: "Vexento - Masked Raver", filePath: "song/Vexento - Masked Raver.mp3", coverPath: "/cover/ncs.svg.png"}
+    {songName: "Cartoon - On", filePath: "song/Cartoon - On.mp3", coverPath: "cover/ncs.svg.png"},
+    {songName: "JPB - Up Away", filePath: "song/JPB - Up Away.mp3", coverPath: "cover/ncs.svg.png"},
+    {songName: "Syn Cole - Feel Good", filePath: "song/Syn Cole - Feel Good", coverPath: "cover/ncs.svg.png"},
+    {songName: "Vexento - Masked Raver", filePath: "song/Vexento - Masked Raver.mp3", coverPath: "cover/ncs.svg.png"}
 ]
 
 // Update songs index
